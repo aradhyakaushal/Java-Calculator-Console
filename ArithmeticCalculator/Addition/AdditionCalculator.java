@@ -16,12 +16,12 @@ public class AdditionCalculator {
 		System.out.print("Enter The Second Number : ");
 		num2 = input.nextDouble();
 
-		Addition.addition(num1, num2);
+		AdditionFormula.addition(num1, num2);
 		pause = input.next();
 	} 
 }
 
-class Addition {
+class AdditionFormula {
 
 	public static void addition (double x, double y) {
 
